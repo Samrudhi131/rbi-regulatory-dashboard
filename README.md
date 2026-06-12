@@ -1,7 +1,7 @@
 # RBI Regulatory Compliance Dashboard — Basel III & NPA KPI Tracker
 
 ## Business Context
-Banks operating in India must continuously monitor and report key regulatory metrics to the Reserve Bank of India (RBI). Manual tracking across business units creates a reporting lag and compliance risk. This project automates the ingestion, computation, and visualization of critical Basel III and RBI-mandated KPIs — with automated breach alerts — enabling the finance team to shift from reactive to proactive compliance monitoring.
+Banks operating in India must continuously monitor and report key regulatory metrics to the Reserve Bank of India (RBI). Manual tracking across business units creates a reporting lag and compliance risk. This project automates the ingestion, computation, and visualization of critical Basel III and RBI-mandated KPIs with automated breach alerts, enabling the finance team to shift from reactive to proactive compliance monitoring.
 
 ## Approach
 - Modeled mock bank financial data (capital, risk-weighted assets, NPA portfolios, liquidity positions) in MySQL
@@ -65,4 +65,4 @@ python scripts/alert_engine.py
 ```
 
 ## Consulting Relevance
-Regulatory reporting and compliance monitoring are a core workstream in FS Technology & Transformation engagements. This project demonstrates domain fluency in Indian banking regulation (RBI, Basel III) — a direct signal to EY's FS practice that you can contribute meaningfully from day one, beyond just technical skills.
+Regulatory reporting and compliance monitoring are a core workstream in FS Technology & Transformation engagements. This project demonstrates domain fluency in Indian banking regulation (RBI, Basel III) - a direct signal to EY's FS practice that you can contribute meaningfully from day one, beyond just technical skills.
