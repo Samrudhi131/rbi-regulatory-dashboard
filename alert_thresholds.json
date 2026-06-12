@@ -1,0 +1,75 @@
+{
+  "_comment": "RBI & Basel III regulatory thresholds for Indian banks (as of 2024). direction='min' means value must be ABOVE threshold. direction='max' means value must be BELOW.",
+
+  "car_ratio": {
+    "direction": "min",
+    "regulatory_minimum": 11.5,
+    "breach_threshold": 11.5,
+    "warning_threshold": 12.5,
+    "description": "Capital Adequacy Ratio — RBI mandated minimum 11.5% (incl. CCB)"
+  },
+
+  "cet1_ratio": {
+    "direction": "min",
+    "regulatory_minimum": 8.0,
+    "breach_threshold": 8.0,
+    "warning_threshold": 9.0,
+    "description": "Common Equity Tier 1 — RBI minimum 8.0% (incl. 2.5% CCB)"
+  },
+
+  "lcr_ratio": {
+    "direction": "min",
+    "regulatory_minimum": 100.0,
+    "breach_threshold": 100.0,
+    "warning_threshold": 105.0,
+    "description": "Liquidity Coverage Ratio — RBI minimum 100%"
+  },
+
+  "nsfr_ratio": {
+    "direction": "min",
+    "regulatory_minimum": 100.0,
+    "breach_threshold": 100.0,
+    "warning_threshold": 103.0,
+    "description": "Net Stable Funding Ratio — RBI minimum 100%"
+  },
+
+  "gnpa_ratio": {
+    "direction": "max",
+    "regulatory_minimum": null,
+    "breach_threshold": 7.0,
+    "warning_threshold": 5.0,
+    "description": "Gross NPA % — internal alert at >5%, escalation at >7%"
+  },
+
+  "net_npa_ratio": {
+    "direction": "max",
+    "regulatory_minimum": null,
+    "breach_threshold": 3.0,
+    "warning_threshold": 2.0,
+    "description": "Net NPA % — internal alert at >2%, escalation at >3%"
+  },
+
+  "pcr_ratio": {
+    "direction": "min",
+    "regulatory_minimum": 70.0,
+    "breach_threshold": 70.0,
+    "warning_threshold": 72.0,
+    "description": "Provision Coverage Ratio — RBI guideline minimum 70%"
+  },
+
+  "nim_ratio": {
+    "direction": "min",
+    "regulatory_minimum": null,
+    "breach_threshold": 1.5,
+    "warning_threshold": 2.0,
+    "description": "Net Interest Margin — internal floor 1.5%"
+  },
+
+  "roa_ratio": {
+    "direction": "min",
+    "regulatory_minimum": null,
+    "breach_threshold": 0.3,
+    "warning_threshold": 0.5,
+    "description": "Return on Assets — internal floor 0.3%"
+  }
+}
